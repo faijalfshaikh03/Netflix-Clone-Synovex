@@ -25,3 +25,32 @@
     max-width: 700px;
     font-size: 17px;
 }
+
+.hero-btns {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 50px;
+}
+
+.hero-btns .btn img {
+    width: 25px;
+}
+
+.hero-btns .btn {
+    border: 0;
+    outline: 0;
+    display: inline-flex;
+    align-items: center;
+    padding: 8px 20px;
+    gap: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    background: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hero-btns .btn.dark-btn {
+    color: white;
+    background: #6d6d6eb3;
+}
