@@ -27,7 +27,7 @@ const Navbar = () => {
             <p>Children</p>
             <img src={bellicon} alt="Bell Icon" />
             <div className='navbar-profile'>
-                <img src={profile_img} alt="profile" />
+                <img src={profile_img} alt="profile" className='profile' />
                 <img src={dropdown} alt="dropdown_icon" />
             </div>
         </div>
